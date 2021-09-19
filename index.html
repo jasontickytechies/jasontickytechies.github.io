@@ -1,64 +1,298 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>3 Anime Recommendations for 2021</title>
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-    </head>
-    <body>
-       <div id="distinctive">
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster Two">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Glory">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Slab">
+    <title>Stanfin's Bakery</title>
+    <style>
+            
+           a:hover{
+                background-color: #d68008;
+                color: white;
+                padding: 1%;
+            }
+            #head a:hover{
+                background-color: #e98e10;
+                color: white;
+                font-weight: bold;
+                padding: 0.5%;
+                font-size: 1.5rem;
+                border: none;
+                transition: 0.2s all;
+            }
+           
+            ::-webkit-scrollbar {
+            width: 15px;
+            }
+            ::-webkit-scrollbar-track {
+                background: rgb(221, 17, 17);
+                border-radius: 15px;
+            }
+            ::-webkit-scrollbar-thumb {
+                background: rgb(247, 134, 4);
+            }
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgba(240, 139, 6, 0.712) ;
+            }
+    </style>
+</head>
+<body>
+    <!--Title, Header Background Image-->
+    <section>
+    <div class="bg-danger text-light text-center p-5">
+        <div class="d-inline-flex justify-content-around align-items-center">
+            <img src="assets/Image 1.png" alt="Bread 1" class="img-fluid" width="15%">
+            <h1 class="mb-7 display-1" style="font-family: 'Lobster Two', serif;" id="Home">Stanfin's Bakery</h1>
+            <img src="assets/Image 2.png" alt="Bread 2" class="img-fluid" width="15%">
+        </div>
+        <p class="lead fs-2" style="font-family: 'Glory', serif;">"Imagine yourself and amazing variation of bread and pastry everyday."</p>
+        <a href="#offers" class="btn btn-warning text-danger fw-bold fs-5">Explore our offers!</a>
+    </div>
+    </section>
+    <section>
+        <div>
+            <nav class="navbar navbar-expand-md navbar-dark bg-warning">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="assets/bakery1.jpg" class="img-fluid" width="40"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link fs-4 px-3 text-light" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link fs-4 px-3 text-light" href="#About us">About us</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fs-4 px-3 text-light" href="#Specials">Specials</a>
+                        </li>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 px-4">
+                    <p class="fs-1 pt-5 mb-7 text-danger fw-bold" style="font-family: 'Lobster Two', serif;">
+                        Are you craving for some pastry?
+                    </p>
+                    <br>
+                    <p class="lead fs-4">
+                      We make bread and pastry that is delicious snacks or meals for any time of the day. Order yourselves some of our specials and enjoy a shipping price that is completely <mark class="fw-bold text-danger bg-warning">FREE!!!</mark>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<br>
+<br>
+<section style="background-color: #eba421;">
+    <section class="container" id="offers">
+            <div class="px-4">
+                <h2 class="fs-1 text-danger pt-5 mb-7 fw-bold" style="font-family:'Lobster Two',serif;">Today's Offers</h2>
+            </div>   
+        <br>
+        <br>
+        <!--Fix Image Resolution-->
+        <!--BF090D-->
+        <div class="row"> 
+            <div class="col-md-3 mb-5">
+                <div class="card">
+                    <img src="assets/japanese.png" alt="Japanese Milk Bread" class="card-img-top img-fluid images">
+                    <div class="card-body" style="height: 10rem;">
+                        <h4 class="card-title pb-2 fw-bold text-center text-danger" style="font-family: 'Quicksand'; font-size: 1.29rem;">Japanese Milk Bread</h5>
+                        <h6 class="card-subtitle mb-2 text-warning text-center" style="font-family: cursive;">The Japanese Milk Bread (Chocolate filling) comes in many small squares of bread that like the name says has a chocolate filling. </h6>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-danger mb-4" style="font-family: 'Nunito', serif;">ADD TO CART</button>
+                    </div>
+                    <div class="card-footer text-danger fw-bold fst-italic text-center bg-warning" style="font-family: 'Ubuntu', serif;">20% OFF</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-5" >
+                <div class="card">
+                    <img src="assets/Babka.png" alt="Babka" class="card-img-top img-fluid images">
+                    <div class="card-body" style="height: 10rem;">
+                        <h4 class="card-title pb-2 fw-bold text-center text-danger" style="font-family: 'Quicksand'; font-size: 1.29rem;">Chocolate Bread Babka</h5>
+                        <h6 class="card-subtitle mb-2 text-warning text-center" style="font-family: cursive;">The Chocolate bread Babka is made mostly chocolate and is every chocolate lovers dream. </h6> 
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-danger mb-4" style="font-family: 'Nunito', serif;">ADD TO CART</button>
+                    </div>
+                    <div class="card-footer text-danger fw-bold fst-italic text-center bg-warning" style="font-family: 'Ubuntu', serif;">20% OFF</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-5">
+                <div class="card" >
+                    <img src="assets/japanese-2.png" alt="Japanese Milk Bread (Garlic)" style="max-height: 300px;" class="card-img-top img-fluid images">
+                    <div class="card-body" style="height: 10rem;">
+                        <h4 class="card-title pb-2 fw-bold text-center text-danger" style="font-family: 'Quicksand'; font-size: 1.29rem;">Japanese Milk Bread (Garlic)</h5>
+                        <h6 class="card-subtitle mb-2 text-warning text-center" style="font-family: cursive;">The Japanese Milk Bread (Garlic) has garlic and consist of bacon inside the bread.</h6>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-danger mb-4" style="font-family: 'Nunito', serif;">ADD TO CART</button>
+                    </div>
+                    <div class="card-footer text-danger fw-bold fst-italic text-center bg-warning" style="font-family: 'Ubuntu', serif;">20% OFF</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-5">
+                <div class="card" >
+                    <img src="assets/Babka Bundles.png" alt="Babka Bundles" class="card-img-top img-fluid images">
+                    <div class="card-body" style="height: 10rem;">
+                        <h4 class="card-title pb-2 fw-bold text-center text-danger" style="font-family: 'Quicksand'; font-size: 1.29rem;">Babka Bundles</h5>
+                        <h6 class="card-subtitle mb-2 text-warning text-center" style="font-family: cursive;">Babka Bundles represent babkas but packed like a cupcake of some sort.</h6>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-danger mb-4" style="font-family: 'Nunito', serif;">ADD TO CART</button>
+                    </div>
+                    <div class="card-footer text-danger fw-bold fst-italic text-center bg-warning" style="font-family: 'Ubuntu', serif;">20% OFF</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+    <section style="background-color: #eb7221;">
+        I<div class="container">
+            <div>
+                <h3 class="fw-bold fs-1" style="font-family: 'Lobster Two', serif; color: rgb(219, 6, 6);" id="Specials">A Special Deal!</h3>
+            </div>
+            <br>
+            <br>
+            <div class="row d-sm-flex flex-wrap-reverse">
+                <div class="col-md-6 clearfix">
+                    <p class="lead fs-4 fw-bold" style="font-family: 'Nunito', serif;">
+                        The Special Event Variation Japanenese Milk Bread, comes in many different ways and styles.
+                        It can turn into a birthday variation or other holiday theme variations with <mark class="fst-italic fw-bold text-warning bg-danger">25% OFF.</mark>
+                    </p>
+                    <p class="lead fs-3" style="font-family: 'Nunito', serif;">
+                        You can order it during Special Moments Such as:
+                    </p>
+                    <ol style="font-size: 1.5rem; font-family: 'Nunito', serif;">
+                        <li style="color: red;">Birthdays</li>
+                        <li style="color: rgb(219, 6, 6);">Christmas</li>
+                        <li style="color: orangered;">New Year Events</li>
+                        <li style="color: orange;">Halloween</li>
+                    </ol>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="assets/event-variation.png" alt="cover" class="img-fluid img-thumbnail" style="border-color: red;">
+                </div>
+            </div>
+            <div>
+                <!--Replace Button To be Under-->
+                <div class="text-center fst-italic">
+                    <button class="btn btn-danger mb-4 mt-5 px-5 fs-2" style="font-family: 'Nunito', serif; margin: auto;">Currently Unavailable!</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-       </div>
-        <div id="sub-0">
-            <h1 style="font-size: 80px;">3 Animes you should watch during quarantine!</h1>
-            <p style="font-size: 40px;">"The 3 Animes that are being recommended aren't necesarrily the <span>best</span> ones out there. Some of them are extremely popular and they're enjoyable to watch and just for pure entertaintment. Note that there will be no <span>major spoilers</span>."</p>
-        </div>
-        <div id="h1">
-            <h3 class="Diverse"><span id="DS"><b>#1 Kimetsu no yaiba/Demon Slayer + Movie (Mugen Train)</b></span></h3>
-        </div>
-        <div  id="firstclass">
-            <img src="assets/Demon-Slayer.jpg" alt="Demon Slayer" class="WP">
-            <p class="verse"> <b>Demon Slayer</b> first aired on April 6, 2019 and ended on September 28, 2019. 
-                The story follows the life of Kamado Tanjiro. One day, he found all his family members dead and the sole survivor, 
-                his sister, had been turned into a demon. Consumed by rage and hatred, Tanjirou swore to avenge his family and to protect his only sibling.
-                In the first season, The story ended with the main character boarding a train.
-                An announcement of a movie release was made at the end of the episode. 
-                In 2021, The movie "Kimetsu no yaiba movie: Mugen Reshha-Hen/Infinity Train" was released.
-                This movie directly continues from where we left off and breaks the records as the highest grossing anime film. 
-                The excitement isn't over since season 2 is coming out this October!
-            </p>
-        </div>
-        </div>
+<section style="background-color: rgba(214, 14, 14, 0.822);">
+    <section class="container">
+    <br>
+    <br>
+    <div class="container" style="font-family: 'Lobster Two', serif;">
+        <h2 class="text-center display-6" style="color: rgb(245, 134, 7)">Get your offers by entering your details here!</h2>    
+    </div>
+<br>
+<br>
+<div class="row">
+    <div class="col-md-6">
+        <form>
+            <div class="form-group pb-3">
+                <label class="mb-3 fs-4 text-warning fw-bold" style="font-family: 'Quicksand', serif;">Name</label>
+                <input type="text" class="form-control" placeholder="Enter your full name">
+            </div>
+            <div class="form-group pb-3">
+                <label class="mb-3 fs-4 text-warning fw-bold" style="font-family: 'Quicksand', serif;">Email</label>
+                <input type="text" class="form-control" placeholder="Enter your email address">
+            </div>
+            <div class="form-group pb-3">
+                <label class="mb-3 fs-4 text-warning fw-bold" style="font-family: 'Quicksand', serif;">Home Address</label>
+                <textarea class="form-control mb-2" placeholder="Enter your house address"></textarea>
+            </div>
+            <div class="text-center">
+                <button type="Submit" class="btn btn-warning p-1 fs-5 mb-5 text-light" style="background-color: rgb(247, 134, 4);">Order Now</button>
+            </div>
+        </form>
+    </div>
+    <!--Fix Alignment of Form and Image-->
+    <div class="col-md-6 mb-15 text-center">
+        <div style="height: 7rem;"></div>
+        <img src="assets/Thank You.jfif" alt="Thanks" class="img-fluid mb-15">
+    </div>
+</div>
+</section>
+</section>
+    <!--Add The Footer-->
+    <section>
+        <footer class="bg-danger text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #3b5998;"
+                  href=""
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
         
-        <div id="h2">
-            <h3 class="Diverse"><span id="JJK"><b>#2 Jujutsu Kaisen/Sorcery Fight</b></span></h3>
-        </div>
-        <div  id="sub-2">    
-            <img src="assets/Jujutsu-Kaisen-LS.jfif" alt="Jujutsu Kaisen"class="WP">
-            <p class="verse" id="midclass"><b> Jujutsu Kaisen</b> first aired on September 20, 2020 and ended on March 26, 2021.
-                This story follows the life of Itadori Yuuji. 
-                One day, from a chain of events, Yuuji found himself suddenly thrusting into the world of Curses, dreadful beings formed from human malice and negativity.
-                He happened to swallow a finger that belonged to the "King of Curses" Ryoumen Sukuna. 
-                Introduced to the Tokyo Metropolitan Jujutsu Technical High School, he began to walk down a path from which he could not turn down the path of a Jujutsu sorcerer. 
-                We are expecting a movie for Jujutsu Kaisen in 2022 next year.
-            </p>
-        </div>
-        <div id="h3">  
-            <h3 class="Diverse"><span id="V-Fes"><b>#3 Vivy: Fluorite Eye's Song</b></span></h3>
-        </div>
-        <div id="sub-3">    
-            <img src="assets/Vivy-(Fes).png" alt="Vivy: Fluorite Eye's Song" class="WP">
-            <p class="verse" id="subclass">
-                <b>Vivy: Fluorite Eye's Song</b> first aired on April 3, 2021 and ended on June 19, 2021. 
-                The story is about the first ever autonomous humanoid A.I, Vivy.
-                Vivy acted as an A.I cast for the establishment. 
-                To fulfill her mission, she needed to make everyone happy by singing. 
-                One day, an A.I claimed that it had travelled from 100 years into the future. 
-                So, a new mission and journey began for Vivy and her new partner to prevent a war between A.I and Humanity.
-            </p>
-        </div>  
-        <div class="footer">
-           <p>Copyright @TVSC/Jason S.H</p>
-        </div>
-    </body>
+          
+                <!-- Google -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #dd4b39;"
+                  href=""
+                  role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #dd13a0;"
+                  href="https://www.instagram.com/stanfinbakery/"
+                  target="_blank"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+          
+                <!-- Github -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #333333;"
+                  href=""
+                  role="button"
+                  ><i class="fab fa-github"></i ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(214, 14, 14, 0.822);">
+              © 2020 Copyright:
+              <a class="text-white" href="">TVSC</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+</body>
 </html>
