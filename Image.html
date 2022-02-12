@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Image Search</title>
     <link rel="stylesheet" href="style.css">
-    <title>Search</title>
 </head>
     <body>
         <div class="header">
             <ul>
-              <a href="Image.html"><li>Image Search</li></a> 
-              <a href="AS.html"><li>Advanced Search</li></a>  
+                <a href="index.html"><li>Search</li></a> 
+                <a href="AS.html"><li>Advanced Search</li></a> 
             </ul>
         </div>
+    
         <div class="icontainer">
-            <img src="Google_2015_logo.svg.png">
+            <img src="Google_2015_logo.svg.png"> 
         </div>
-        <form class="Search" action="https://google.com/search">
+        <form class="Search" action="http://images.google.com/images">
+                <input type="hidden" name="tbm" value="isch">
                 <input type="text" name="q">
                 <div class="buttons">
-                    <input type="submit" value="Google Search">
+                    <input type="submit" value="Image Search">
                     <input type="submit" value="I'm Feeling Lucky" name="btnI">
             </div>
         </form>
